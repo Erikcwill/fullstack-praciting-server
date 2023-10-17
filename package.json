@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-praciting-server",
+  "version": "1.0.0",
+  "description": "Server destinado ao banco de dados do site de pratica Alura Books!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erick William",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
