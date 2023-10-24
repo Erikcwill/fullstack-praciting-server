@@ -36,7 +36,7 @@ function postBook(req, res) {
   try {
     const newBook = req.body;
 
-    if (req.body.nome && req.body.id)  {
+    if (req.body.name && req.body.id)  {
       insertBook(newBook);
       res.status(201);
       res.send("Livro inserido com sucesso");

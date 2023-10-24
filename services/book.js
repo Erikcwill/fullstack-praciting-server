@@ -18,7 +18,7 @@ function insertBook(newBook) {
   const bookWithSameId = books.find((book) => book.id === newBook.id);
 
   // Verifica se já existe um livro com o mesmo nome
-  const bookWithSameName = books.find((book) => book.nome === newBook.nome);
+  const bookWithSameName = books.find((book) => book.name === newBook.name);
 
   if (bookWithSameId) {
     throw new Error("Um livro com o mesmo ID já existe");
